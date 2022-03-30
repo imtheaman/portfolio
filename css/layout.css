@@ -219,7 +219,7 @@ ul#nav li.current a {
   padding-bottom: 66px;
   overflow: hidden;
   /* *!My code */
-  height: 100vh;
+  height: 70vh;
 }
 
 #about a,
