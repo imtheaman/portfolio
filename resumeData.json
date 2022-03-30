@@ -1,0 +1,109 @@
+{
+  "main": {
+    "name": "The Aman",
+    "occupation": "Full Stack Master",
+    "description": "I me and my Code",
+    "image": "profilepic.jpg",
+    "bio": "Hey! I'm a Front End Master with having immense knowledge and experience in building and debugging React and Next js apps. I'm also familiar with Node.js and MongoDB. I'm growing as a MERN Stack developer.",
+    "contactmessage": "Get in touch with me to get your Web Application Built Today.",
+    "email": "urtheaman@gmail.com",
+    "phone": "+91 8674841563",
+    "address": {
+      "street": "India",
+      "city": "India",
+      "state": "India",
+      "zip": "803101"
+    },
+    "website": "https://www.theaman.in",
+    "resumedownload": "https://www.theaman.in/resume",
+    "social": [
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
+        "className": "fa fa-youtube"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/urstrulyaman",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/urtheaman",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ssssangha/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/urtheaman",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillset": [
+      {
+        "title": "Technical Skills",
+        "skills": "Next.js | React | Javascript | HTML | CSS | Python | C",
+        "description": ""
+      },
+      {
+        "title": "Extra Skills",
+        "skills": "Communication Skills, Live StoryTelling, Motivator",
+        "description": ""
+      }
+    ],
+    "stacks": [
+      {
+        "name": "Next.js",
+        "level": "95%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "96%"
+      },
+      {
+        "name": "HTML, CSS, JavaScript",
+        "level": "98%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Snapchat Clone (React JS)",
+        "category": "",
+        "image": "snapchat.jpg",
+        "url": "https://youtu.be/1kGISk5ft2w"
+      },
+      {
+        "title": "Gmail Clone (React JS)",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://youtu.be/b7nrXjS6Dqs"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Aman is an excellent developer, his is very experienced in building web apps using modern web technologies. I would definitely recommend him.",
+        "user": "Jorge Nelson"
+      },
+      {
+        "text": "Working with Aman was absolutely amazing, he has impressive communication Skills. he brings a high level of professionalism to his work!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
