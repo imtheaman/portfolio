@@ -52,11 +52,7 @@
         "level": "96%"
       },
       {
-        "name": "TypeScript",
-        "level": "96%"
-      },
-      {
-        "name": "HTML, CSS, JavaScript",
+        "name": "TypeScript, HTML, CSS, JavaScript",
         "level": "96%"
       }
     ]
@@ -92,6 +88,12 @@
         "category": "Projects",
         "image": "nexter.png",
         "url": "https://nexter-homes.vercel.app/"
+      },
+      {
+        "title": "Uber Web3 (Next JS, TypeScript)",
+        "category": "Projects",
+        "image": "uber.png",
+        "url": "https://uber-web3-mu.vercel.app/"
       },
       {
         "title": "Linkedin redesign (Next JS, TypeScript)",
