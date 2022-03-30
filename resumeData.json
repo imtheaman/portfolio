@@ -1,11 +1,11 @@
 {
   "main": {
     "name": "The Aman",
-    "occupation": "Full Stack Master",
-    "description": "I me and my Code",
+    "occupation": "Frontend developer",
+    "description": "I me and my code",
     "image": "profilepic.jpg",
-    "bio": "Hey! I'm a Front End Master with having immense knowledge and experience in building and debugging React and Next js apps. I'm also familiar with Node.js and MongoDB. I'm growing as a MERN Stack developer.",
-    "contactmessage": "Get in touch with me to get your Web Application Built Today.",
+    "bio": "Hey! I'm a Front End Master with having great knowledge and experience in building and debugging React and Next js apps. I enjoy converting designs into real world websites.",
+    "contactmessage": "Get in touch with me",
     "email": "urtheaman@gmail.com",
     "phone": "+91 8674841563",
     "address": {
@@ -14,28 +14,13 @@
       "state": "India",
       "zip": "803101"
     },
-    "website": "https://www.theaman.in",
-    "resumedownload": "https://www.theaman.in/resume",
+    "website": "https://theaman.netlify.app",
+    "resumedownload": "https://www.linkedin.com/in/urtheaman",
     "social": [
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/urstrulyaman",
-        "className": "fa fa-facebook"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/urtheaman",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -48,49 +33,83 @@
     "skillset": [
       {
         "title": "Technical Skills",
-        "skills": "Next.js | React | Javascript | HTML | CSS | Python | C",
-        "description": ""
+        "skills": "Next.js | React | TypeScript | Javascript | HTML | CSS | SCSS | Python",
+        "description": "I enjoy writing code, solving real world problems and finding more problems to solve. I have great interests in physics, ar-vr and ml & ai as well."
       },
       {
         "title": "Extra Skills",
-        "skills": "Communication Skills, Live StoryTelling, Motivator",
+        "skills": "Communication Skills, StoryTelling, Searching on Google, Not using liquid libraries",
         "description": ""
       }
     ],
     "stacks": [
       {
         "name": "Next.js",
-        "level": "95%"
+        "level": "96%"
       },
       {
-        "name": "ReactJs",
+        "name": "ReactJs, redux, graphql, apollo",
+        "level": "96%"
+      },
+      {
+        "name": "TypeScript",
         "level": "96%"
       },
       {
         "name": "HTML, CSS, JavaScript",
-        "level": "98%"
+        "level": "96%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "title": "Medium Clone (Web3)",
+        "category": "Clones",
+        "image": "medium.png",
+        "url": "https://medium-web3.vercel.app/"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "title": "Airbnb Clone (React JS)",
+        "category": "Clones",
+        "image": "airbnb.png",
+        "url": "https://airbnb-v2-urtheaman.vercel.app/"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "title": "Crown Clothing Ecommerce (React JS)",
+        "category": "Projects",
+        "image": "crown-clothing.png",
+        "url": "https://crown-clothing-ecom.vercel.app/"
+      },
+      {
+        "title": "JS Notebook (React JS, TypeScript)",
+        "category": "Projects",
+        "image": "js-notebook.png",
+        "url": "https://js-notebook-three.vercel.app/"
+      },
+      {
+        "title": "Nexter Homes (Next JS, TypeScript)",
+        "category": "Projects",
+        "image": "nexter.png",
+        "url": "https://nexter-homes.vercel.app/"
+      },
+      {
+        "title": "Linkedin redesign (Next JS, TypeScript)",
+        "category": "Projects",
+        "image": "linkedin.png",
+        "url": "https://linkedin-v2-urtheaman.vercel.app/"
+      },
+      {
+        "title": "Trillio (Html, scss, Javascript)",
+        "category": "Projects",
+        "image": "trillio.png",
+        "url": "https://urtheaman.github.io/trillio/"
+      },
+      {
+        "title": "Facebook v2 (React JS, Firebase, Sanity)",
+        "category": "Clones",
+        "image": "facebook.png",
+        "url": "https://facebook-v2-urtheaman.vercel.app/"
       }
     ]
   },
@@ -98,7 +117,7 @@
     "testimonials": [
       {
         "text": "Aman is an excellent developer, his is very experienced in building web apps using modern web technologies. I would definitely recommend him.",
-        "user": "Jorge Nelson"
+        "user": "Sarah Williams"
       },
       {
         "text": "Working with Aman was absolutely amazing, he has impressive communication Skills. he brings a high level of professionalism to his work!",
