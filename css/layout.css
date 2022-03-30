@@ -481,15 +481,14 @@ ul#nav li.current a {
   background: #0a173a;
   padding-top: 90px;
   padding-bottom: 60px;
-  height: 100vh;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 20px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #cdd0d0;
 }
 
 /* Portfolio Content */
@@ -719,12 +718,12 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: linear-gradient(to bottom right, #00C1B093, #0A173A93),
+  background: linear-gradient(to bottom right, #6c6c6c93, #00000093),
     url(../images/testimonials-bg.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
-  height: 100vh;
+  height: 70vh;
   position: relative;
   min-height: 200px;
   width: 100%;
