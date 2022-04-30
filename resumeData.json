@@ -63,16 +63,16 @@
         "url": "https://sematic.vercel.app/"
       },
       {
-        "title": "Connect chat app",
-        "category": "Projects",
-        "image": "connect.png",
-        "url": "https://connect-urtheaman.vercel.app/"
-      },
-      {
         "title": "JS Notebook (React JS, TypeScript)",
         "category": "Projects",
         "image": "js-notebook.png",
         "url": "https://js-notebook-urtheaman.vercel.app/"
+      },
+      {
+        "title": "Connect chat app",
+        "category": "Projects",
+        "image": "connect.png",
+        "url": "https://connect-urtheaman.vercel.app/"
       },
       {
         "title": "Crown Clothing Ecommerce (React JS)",
