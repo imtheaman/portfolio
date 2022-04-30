@@ -4,15 +4,12 @@
     "occupation": "Frontend developer",
     "description": "I me and my code",
     "image": "profilepic.jpg",
-    "bio": "Hey! I'm a Front End Master with having great knowledge and experience in building and debugging React and Next js apps. I enjoy converting designs into real world websites.",
+    "bio": "Hey! I'm a Front End Master having great knowledge and experience in building and debugging React and Next js apps. I convert designs into real world websites.",
     "contactmessage": "Get in touch with me",
     "email": "urtheaman@gmail.com",
     "phone": "+91 8674841563",
     "address": {
-      "street": "India",
-      "city": "India",
-      "state": "India",
-      "zip": "803101"
+      "street": "India"
     },
     "website": "https://urtheaman.vercel.app",
     "resumedownload": "https://github.com/urtheaman/urtheaman/raw/main/Aman's%20Res.pdf",
@@ -34,7 +31,7 @@
       {
         "title": "Technical Skills",
         "skills": "Next.js | React | TypeScript | Javascript | HTML | CSS | SCSS | Python",
-        "description": "I enjoy writing code, solving real world problems and finding more problems to solve. I have great interests in physics, ar-vr and ml & ai as well."
+        "description": "coding, solving real world problems and finding more problems to solve. I have great interests in physics and technology"
       },
       {
         "title": "Extra Skills",
