@@ -14,8 +14,8 @@
       "state": "India",
       "zip": "803101"
     },
-    "website": "https://theaman.netlify.app",
-    "resumedownload": "https://www.linkedin.com/in/urtheaman",
+    "website": "https://urtheaman.vercel.app",
+    "resumedownload": "https://github.com/urtheaman/urtheaman/raw/main/Aman's%20Res.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -60,6 +60,30 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Sematic: professional workflow tracker",
+        "category": "Projects",
+        "image": "sematic.png",
+        "url": "https://sematic.vercel.app/"
+      },
+      {
+        "title": "Connect chat app",
+        "category": "Projects",
+        "image": "connect.png",
+        "url": "https://connect-urtheaman.vercel.app/"
+      },
+      {
+        "title": "JS Notebook (React JS, TypeScript)",
+        "category": "Projects",
+        "image": "js-notebook.png",
+        "url": "https://js-notebook-urtheaman.vercel.app/"
+      },
+      {
+        "title": "Crown Clothing Ecommerce (React JS)",
+        "category": "Projects",
+        "image": "crown-clothing.png",
+        "url": "https://crown-clothing-ecom.vercel.app/"
+      },
+      {
         "title": "Medium Clone (Web3)",
         "category": "Clones",
         "image": "medium.png",
@@ -72,34 +96,22 @@
         "url": "https://airbnb-v2-urtheaman.vercel.app/"
       },
       {
-        "title": "Crown Clothing Ecommerce (React JS)",
-        "category": "Projects",
-        "image": "crown-clothing.png",
-        "url": "https://crown-clothing-ecom.vercel.app/"
-      },
-      {
-        "title": "JS Notebook (React JS, TypeScript)",
-        "category": "Projects",
-        "image": "js-notebook.png",
-        "url": "https://js-notebook-three.vercel.app/"
-      },
-      {
         "title": "Nexter Homes (Next JS, TypeScript)",
         "category": "Projects",
         "image": "nexter.png",
         "url": "https://nexter-homes.vercel.app/"
       },
       {
-        "title": "Uber Web3 (Next JS, TypeScript)",
-        "category": "Projects",
-        "image": "uber.png",
-        "url": "https://uber-web3-mu.vercel.app/"
-      },
-      {
         "title": "Linkedin redesign (Next JS, TypeScript)",
-        "category": "Projects",
+        "category": "Clones",
         "image": "linkedin.png",
         "url": "https://linkedin-v2-urtheaman.vercel.app/"
+      },
+      {
+        "title": "Linkedin automation",
+        "category": "Projects",
+        "image": "linkedin.png",
+        "url": "https://github.com/urtheaman/automations"
       },
       {
         "title": "Trillio (Html, scss, Javascript)",
