@@ -57,6 +57,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Resume Maker",
+        "category": "Projects",
+        "image": "resume-maker.png",
+        "url": "https://free-resume-maker.vercel.app"
+      },
+      {
         "title": "Sematic: professional workflow tracker",
         "category": "Projects",
         "image": "sematic.png",
