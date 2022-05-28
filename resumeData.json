@@ -35,7 +35,7 @@
       },
       {
         "title": "Extra Skills",
-        "skills": "Communication Skills, StoryTelling, Searching on Google, Not using liquid libraries",
+        "skills": "Communication Skills, StoryTelling, Searching, ds-algo, design patterns, Not using liquid libraries",
         "description": ""
       }
     ],
@@ -57,25 +57,25 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Resume Maker",
+        "title": "Resume Maker (React Js, Typescript, Redux, Express)",
         "category": "Projects",
         "image": "resume-maker.png",
         "url": "https://free-resume-maker.vercel.app"
       },
       {
-        "title": "Sematic: professional workflow tracker",
+        "title": "Sematic: professional workflow tracker (Next Js, github api, Typescript, Graphql)",
         "category": "Projects",
         "image": "sematic.png",
         "url": "https://sematic.vercel.app/"
       },
       {
-        "title": "JS Notebook (React JS, TypeScript)",
+        "title": "JS Notebook (React JS, TypeScript, Rest api, Express)",
         "category": "Projects",
         "image": "js-notebook.png",
         "url": "https://js-notebook-urtheaman.vercel.app/"
       },
       {
-        "title": "Connect chat app",
+        "title": "Connect chat app (React Js, Typescript, redux, apollo, graphql, crypto-js)",
         "category": "Projects",
         "image": "connect.png",
         "url": "https://connect-urtheaman.vercel.app/"
@@ -111,7 +111,7 @@
         "url": "https://linkedin-v2-urtheaman.vercel.app/"
       },
       {
-        "title": "Linkedin automation",
+        "title": "Linkedin automation (Puppeteer)",
         "category": "Projects",
         "image": "linkedin.png",
         "url": "https://github.com/urtheaman/automations"
@@ -133,11 +133,11 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Aman is an excellent developer, his is very experienced in building web apps using modern web technologies. I would definitely recommend him.",
+        "text": "Aman is an excellent developer, he is experienced in building web apps using modern web technologies. I would definitely recommend him.",
         "user": "Sarah Williams"
       },
       {
-        "text": "Working with Aman was absolutely amazing, he has impressive communication Skills. he brings a high level of professionalism to his work!",
+        "text": "Working with Aman was absolutely amazing, he has impressive communication Skills. he brings a high level of professionalism to his work.",
         "user": "Adam Curtis"
       }
     ]
