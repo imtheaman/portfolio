@@ -2,7 +2,6 @@
   "main": {
     "name": "The Aman",
     "occupation": "Frontend developer",
-    "description": "I me and my code",
     "image": "profilepic.jpg",
     "bio": "Hey! I'm a Front End Master having great knowledge and experience in building and debugging React and Next js apps. I convert designs into real world websites.",
     "contactmessage": "Get in touch with me",
