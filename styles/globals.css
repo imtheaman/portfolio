@@ -20,6 +20,10 @@
         [type='checkbox']:checked + label {
             color: var(--green-two);
         }
+
+        ul.arrow-style {
+            
+        }
 }
 
 @layer components {

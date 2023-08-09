@@ -1,6 +1,7 @@
 import CyberCard from '@/components/card/CyberCard.comp'
 import Link from 'next/link'
 import React from 'react'
+import { IconBaseProps } from 'react-icons'
 import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 
@@ -18,7 +19,9 @@ const SocialCard: React.FC<{name: string, profile_url: string, username: string}
 
 export default SocialCard
 
-const Icon: React.FC<{name: string}> = ({name, ...others}) => {
+interface IIcon extends IconBaseProps {name: string}
+
+const Icon: React.FC<IIcon> = ({name, ...others}) => {
     switch(name.toLowerCase().trim()) {
         case "linkedin":
             return <FaLinkedin {...others} />
