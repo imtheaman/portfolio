@@ -1,5 +1,6 @@
 import LinkAsBtn from '@/components/button/LinkAsBtn.comp'
 import CyberCard from '@/components/card/CyberCard.comp'
+import Image from 'next/image';
 import React from 'react'
 
 interface IPortfolio { name: string; desc1: string; desc2: string; image: string; preview_link: string; source_link: string; }
@@ -8,7 +9,7 @@ const PortfolioCard : React.FC<IPortfolio> = ({desc1, desc2, image, name, previe
   return (
     <div className='flex justify-between items-start'>
         <CyberCard parentClassName='w-5/12 hover-cyber-glitch-0'>
-            <img src={image} />
+            <Image alt={name} src={image} />
         </CyberCard>
         <div className='flex-1 mx-12 my-1 self-stretch flex flex-col justify-between'>
             <div>

@@ -7,7 +7,7 @@ const Socials = () => {
   return (
     <MainLayout heading="Socials">
       <div className="flex space-x-8 justify-center items-center">
-        {data.user.socials.map((social) => <SocialCard {...social} />)}
+        {data.user.socials.map((social, index) => <SocialCard key={index} {...social} />)}
       </div>
     </MainLayout>
   );

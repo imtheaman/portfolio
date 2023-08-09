@@ -11,13 +11,13 @@ const Portfolio = () => {
     <MainLayout heading="Portfolio">
       <div className="px-8 w-full">
         <div className="flex justify-center space-x-8 mb-12 -mt-8 items-center">
-          {data.portfolio.tags.map((tag) => (
-            <Tag tag={tag} />
+          {data.portfolio.tags.map((tag, index) => (
+            <Tag key={index} tag={tag} />
           ))}
         </div>
         <HorizontalScrollLayout slidesToShow={1}>
-          {data.portfolio.data.map((work) => (
-            <PortfolioCard {...work} />
+          {data.portfolio.data.map((work, index) => (
+            <PortfolioCard key={index} {...work} />
           ))}
         </HorizontalScrollLayout>
       </div>

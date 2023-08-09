@@ -10,7 +10,7 @@ const Services = () => {
     <MainLayout heading="Services That I Offer">
       <div className="px-8 w-full">
         <HorizontalScrollLayout className="items-stretch" slidesToShow={3}>
-          {data.services.map(service => <ServiceCard {...service} />)}
+          {data.services.map((service, index) => <ServiceCard key={index} {...service} />)}
         </HorizontalScrollLayout>
       </div>
     </MainLayout>
