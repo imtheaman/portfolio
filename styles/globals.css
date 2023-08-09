@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --green-one: #185B33;
+    --green-one-dark: #185b3330;
+    --green-two: #00FA55;
+    --green-three: #019E36;
+}
+
+@layer base {
+        ::selection {
+            color: #000;
+            background-color: var(--green-two);
+        }
+        [type='checkbox'] {
+            visibility: hidden;
+        }
+        [type='checkbox']:checked + label {
+            color: var(--green-two);
+        }
+}
+
+@layer components {
+    .body-margin {
+        @apply mx-16 my-8
+    }
+
+    /* color */
+    .color-primary {
+        @apply text-[#fff]
+    }
+    .color-secondary {
+        @apply text-[green]
+    }
+    .color-tertiary {
+        @apply text-[#202020]
+    }
+
+    /* bg color */
+    .bg-primary {
+        @apply bg-[#202020]
+    }
+    .bg-secondary {
+        @apply bg-[green]
+    }
+    .bg-tertiary {
+        @apply bg-[#fff]
+    }
+
+    /* height */
+    .h-total {
+        @apply h-[calc(100vh-4rem)]
+    }
+
+    /* padding */
+    .p-lg {
+        @apply p-10
+    }
+}

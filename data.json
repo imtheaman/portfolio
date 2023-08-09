@@ -1,0 +1,100 @@
+{
+  "user": {
+    "name": "Aman",
+    "image": "",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "profile_url": "https://linkedin.com/in/imtheaman",
+        "username": "imtheaman"
+      },
+      {
+        "name": "Github",
+        "profile_url": "https://github.com/imtheaman",
+        "username": "imtheaman"
+      },
+      {
+        "name": "YouTube",
+        "profile_url": "https://youtube.com/imtheaman",
+        "username": "imtheaman"
+      },
+      {
+        "name": "Email",
+        "profile_url": "mailto:imtheaman@proton.me",
+        "username": "imtheaman@proton.me"
+      }
+    ],
+    "self_desc": "Hi, I'm Aman, a software engineer with passions and expertise in developing mobile and web apps."
+  },
+  "services": [
+    {
+      "name": "Web App Development",
+      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "starting_price": "$125"
+    },
+    {
+      "name": "App Development",
+      "desc": "Technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis others...",
+      "starting_price": "$499"
+    },
+    {
+      "name": "Malware Development",
+      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "starting_price": "$699"
+    },
+    {
+      "name": "Server Development",
+      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "starting_price": "$299"
+    },
+    {
+      "name": "DevOps",
+      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "starting_price": "$249"
+    }
+  ],
+  "portfolio": {
+    "tags": ["react", "react-native", "full stack", "malware", "android", "web", "javascript"],
+    "data": [
+    {
+      "name": "JS Notebook: an online js code-editor",
+      "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "image": "js-notebook.png",
+      "preview_link": "https://sematic.vercel.app",
+      "source_link": "https://github.com/imtheaman/sematic"
+    },
+    {
+      "name": "Sematic: an issue tracker project",
+      "desc1": "",
+      "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "image": "sematic.png",
+      "preview_link": "https://sematic.vercel.app",
+      "source_link": "https://github.com/imtheaman/sematic"
+    },
+    {
+      "name": "Connect: an e2e secured chat app",
+      "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "image": "connect.png",
+      "preview_link": "https://sematic.vercel.app",
+      "source_link": "https://github.com/imtheaman/sematic"
+    },
+    {
+      "name": "Resume Maker: free resume maker",
+      "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "image": "resume-maker.png",
+      "preview_link": "https://sematic.vercel.app",
+      "source_link": "https://github.com/imtheaman/sematic"
+    },
+    {
+      "name": "Corporate: a remote android malware",
+      "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+      "image": "bgimage.jpg",
+      "preview_link": "https://sematic.vercel.app",
+      "source_link": "https://github.com/imtheaman/sematic"
+    }
+  ]}
+}
