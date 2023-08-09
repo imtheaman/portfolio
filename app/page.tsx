@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/hacker.css'
 import ProfileCard from './home/ProfileCard.comp'
 
-const Home: React.FC<{className?: string}> = ({className}) => {
+const Home: React.FC = () => {
   return (
       <div className='w-full h-full flex'>
         <ProfileCard />
