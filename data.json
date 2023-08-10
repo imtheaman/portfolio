@@ -69,8 +69,8 @@
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "image": "js-notebook.png",
-        "preview_link": "https://sematic.vercel.app",
-        "source_link": "https://github.com/imtheaman/sematic"
+        "preview_link": "https://js-notebook-urtheaman.vercel.app",
+        "source_link": "https://github.com/imtheaman/js-notebook"
       },
       {
         "name": "Sematic: an issue tracker project",
@@ -85,24 +85,24 @@
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "image": "connect.png",
-        "preview_link": "https://sematic.vercel.app",
-        "source_link": "https://github.com/imtheaman/sematic"
+        "preview_link": "https://connect-urtheaman.vercel.app",
+        "source_link": "https://github.com/imtheaman/connect-chat-app"
       },
       {
         "name": "Resume Maker: free resume maker",
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "image": "resume-builder.png",
-        "preview_link": "https://sematic.vercel.app",
-        "source_link": "https://github.com/imtheaman/sematic"
+        "preview_link": "https://free-resume-maker.vercel.app",
+        "source_link": "https://github.com/imtheaman/resume-maker"
       },
       {
         "name": "Corporate: a remote android malware",
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "image": "bgimage.jpg",
-        "preview_link": "https://sematic.vercel.app",
-        "source_link": "https://github.com/imtheaman/sematic"
+        "preview_link": "#",
+        "source_link": "https://github.com/imtheaman"
       }
     ]
   },
