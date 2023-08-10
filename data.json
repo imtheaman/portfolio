@@ -92,7 +92,7 @@
         "name": "Resume Maker: free resume maker",
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "image": "resume-maker.png",
+        "image": "resume-builder.png",
         "preview_link": "https://sematic.vercel.app",
         "source_link": "https://github.com/imtheaman/sematic"
       },
