@@ -10,7 +10,7 @@ const HelpCommand: React.FC<{
   const marginLeft = indent*2;
   return (
     <Fragment key={cmd}>
-      <p className={`flex justify-between w-[60rem]`} style={{marginLeft: `${indent}rem`}}>
+      <p className={`flex justify-between w-[60rem]`} style={{marginLeft: `${marginLeft}rem`}}>
         <span>| {cmd}:</span> <span>{desc} |</span>
       </p>
       {children}
