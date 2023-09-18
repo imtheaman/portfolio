@@ -7,10 +7,10 @@ const HelpCommand: React.FC<{
   children?: ReactNode;
   indent?: number;
 }> = ({ cmd, desc, children = "", indent = 0 }) => {
-  const marginLeft = `ml-${indent * 4}`;
+  const marginLeft = indent*2;
   return (
     <Fragment key={cmd}>
-      <p className={`flex justify-between w-[60rem] ${marginLeft}`}>
+      <p className={`flex justify-between w-[60rem]`} style={{marginLeft: `${indent}rem`}}>
         <span>| {cmd}:</span> <span>{desc} |</span>
       </p>
       {children}
@@ -34,7 +34,9 @@ const InitialTerminalLog = () => {
             {help &&
               Object.keys(help).map((key) => (
                 // @ts-ignore
-                <HelpCommand key={key} cmd={key} desc={help[key]} indent={1}></HelpCommand>
+                <HelpCommand key={key} cmd={key} desc={help[key]} indent={1}>
+
+                </HelpCommand>
               ))}
           </HelpCommand>
         ))}
