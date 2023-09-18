@@ -24,33 +24,34 @@
         "username": "imtheaman@proton.me"
       }
     ],
-    "self_desc": "Hi, I'm Aman, a software engineer with passions and expertise in developing mobile and web apps."
+    "short_desc": "Hi, I'm Aman, a software engineer with passions and expertise in developing mobile and web apps.",
+    "long_desc": ""
   },
   "services": [
     {
       "name": "Web App Development",
-      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "desc": "Enterprise level web application development & deployment using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
       "starting_price": "$125"
     },
     {
       "name": "App Development",
-      "desc": "Technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis others...",
+      "desc": "Enterprise level Mobile Application development & deployment either using native tech like Kotlin, jetpack etc. or using cross-platform tech like react-native, flutter etc...",
       "starting_price": "$499"
     },
     {
       "name": "Malware Development",
-      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "desc": "Development of malware for devices or trackers which can give you more information about the user with or without their consent...",
       "starting_price": "$699"
     },
     {
       "name": "Server Development",
-      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
+      "desc": "Enterprise level server development & deployment using modern technologies such as Node.js, express.js, nest.js, django, flask, rocket, actix, rest apis, graphql apis and others...",
       "starting_price": "$299"
     },
     {
       "name": "DevOps",
-      "desc": "Enterprise level web apps development using modern technologies such as React.js, Next.js, Redux, Node.js, express.js, rest apis, graphql apis and others...",
-      "starting_price": "$249"
+      "desc": "Deployment and management of resources on various cloud platforms like azure, aws, gcp with container services like Docker, kubernetes alongwith the useof terraform...",
+      "starting_price": "$399"
     }
   ],
   "portfolio": {
@@ -61,14 +62,15 @@
       "malware",
       "android",
       "web",
+      "mobile",
       "javascript"
     ],
     "data": [
       {
-        "name": "JS Notebook: an online js code-editor",
-        "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "image": "js-notebook.png",
+        "name": "Code Notebook: code-editor in cloud",
+        "desc1": "Code Notebook is an ide in the cloud for developers mostly used for private-repos which is secured and authorised only to specific members or devs can use it personally when they don't have their local ide in hand and need to work on any project in the cloud",
+        "desc2": "It's built using Modern Next.js and can compile all types of code with support for language specific syntax highlighting, git support, auto-formatting and auto-completion and multiple other features",
+        "image": "/js-notebook.png",
         "preview_link": "https://js-notebook-urtheaman.vercel.app",
         "source_link": "https://github.com/imtheaman/js-notebook"
       },
@@ -76,7 +78,23 @@
         "name": "Sematic: an issue tracker project",
         "desc1": "",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "image": "sematic.png",
+        "image": "/sematic.png",
+        "preview_link": "https://sematic.vercel.app",
+        "source_link": "https://github.com/imtheaman/sematic"
+      },
+      {
+        "name": "NextCMS: a wcms like wordpress in Next.js",
+        "desc1": "",
+        "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+        "image": "/sematic.png",
+        "preview_link": "https://sematic.vercel.app",
+        "source_link": "https://github.com/imtheaman/sematic"
+      },
+      {
+        "name": "Sematic: an issue tracker project",
+        "desc1": "",
+        "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
+        "image": "/sematic.png",
         "preview_link": "https://sematic.vercel.app",
         "source_link": "https://github.com/imtheaman/sematic"
       },
@@ -84,15 +102,15 @@
         "name": "Connect: an e2e secured chat app",
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "image": "connect.png",
+        "image": "/connect.png",
         "preview_link": "https://connect-urtheaman.vercel.app",
         "source_link": "https://github.com/imtheaman/connect-chat-app"
       },
       {
-        "name": "Resume Maker: free resume maker",
+        "name": "Resumer: free resume maker",
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "image": "resume-builder.png",
+        "image": "/resume-builder.png",
         "preview_link": "https://free-resume-maker.vercel.app",
         "source_link": "https://github.com/imtheaman/resume-maker"
       },
@@ -100,7 +118,7 @@
         "name": "Corporate: a remote android malware",
         "desc1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
         "desc2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, delectus autem. Mollitia nam, consectetur molestias deserunt facilis iusto recusandae voluptate ratione autem, repellat libero ipsa incidunt! Architecto qui sapiente repellat?",
-        "image": "bgimage.jpg",
+        "image": "/bgimage.jpg",
         "preview_link": "#",
         "source_link": "https://github.com/imtheaman"
       }
@@ -108,15 +126,49 @@
   },
   "terminal": {
     "commands": [
-      "help",
-      "about",
-      "services",
-      "portfolio",
-      "blog",
-      "socials",
-      "business",
-      "contact",
-      "set-name"
+      {
+        "name": "help",
+        "desc": "To get help, when you can't figure out"
+      },
+      { "name": "cd", "desc": "To change directory" },
+      { "name": "about", "desc": "To know more about me" },
+      {
+        "name": "services",
+        "desc": "To navigate and book the services provided by me",
+        "help": {
+          "ls": "List all the services",
+          "book": "Book a service, ex: book app-development"
+        }
+      },
+      {
+        "name": "portfolio",
+        "desc": "To check the projects and it's code that i've worked on",
+        "help": {
+          "ls": "List all the projects",
+          "preview": "Preview a project",
+          "source": "Check source code of a project"
+        }
+      },
+      { "name": "blog", "desc": "To navigate through the blogs"},
+      {
+        "name": "socials",
+        "desc": "To navigate through the social presence of mine"
+      },
+      {
+        "name": "business",
+        "desc": "To connect with me about a deal you might have"
+      },
+      {
+        "name": "contact",
+        "desc": "To connect with me about the interests that we match"
+      },
+      {
+        "name": "set-name",
+        "desc": "To set your name as a visitor, so that next time i remember you",
+        "help": {
+          "reset": "To delete the name you've set as a visitor"
+        }
+      }
     ]
   }
 }

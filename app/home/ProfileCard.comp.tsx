@@ -9,9 +9,9 @@ const ProfileCard = () => {
         {data.user.name}
         <span className="cyber-glitch-3">_</span>
       </h1>
-      <h2 className="">{data.user.self_desc}</h2>
+      <h2 className="">{data.user.short_desc}</h2>
       <p className="mt-6 mb-3">
-        Type commands to get more information about me (type{" "}
+        Type commands followed by Enter to get more information about me (type{" "}
         <span className="underline">help</span> if you need help)...
       </p>
       <CommandInput />

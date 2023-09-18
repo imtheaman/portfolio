@@ -7,13 +7,13 @@ import data from '../../data.json'
 const CommandInput = () => {
     const [showTerminal, setShowTerminal] = useState(false);
     const [value, setValue] = useState('')
-    const commands = data.terminal.commands
+    const commands = data.terminal.commands.map(cmd => cmd.name)
   return (
     <>
     <Input autoFocus reverted value={value} onChange={setValue} onKeyDown={
         (e: any) => {if(commands.includes(value) && e.key === 'Enter') setShowTerminal(true)}
         } />
-      {showTerminal && <Terminal />}
+      {showTerminal && <Terminal initValue={value} showTerminal={setShowTerminal}/>}
     </>
   )
 }

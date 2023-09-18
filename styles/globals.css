@@ -14,6 +14,7 @@
             color: #000;
             background-color: var(--green-two);
         }
+        
         [type='checkbox'] {
             visibility: hidden;
         }
