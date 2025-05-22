@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import LinkAsBtn from "../button/LinkAsBtn.comp";
 
