@@ -1,6 +1,6 @@
 :root 
 {
-    --root-font-size: 18px;
+    --root-font-size: 18px; /* Base for rem calculations */
 
     --yellow: #f8ef02;
     --cyan: #019E36;
@@ -25,20 +25,27 @@
     --banner-color2: var(--red);
     --banner-color3: var(--yellow); 
     --banner-color4: var(--cyan); 
-    --banner-gradient-stop: 405px;
+    --banner-gradient-stop: 22.5rem; /* 405px / 18px */
 
-    --input-padding-top: 0px;
+    --input-padding-top: 0px; /* Can remain 0px or 0 */
     --input-padding-bot: 0.2rem;
     --input-padding-left: 1rem;
     --input-padding-right: 2rem;
     --input-font-size: 1.2rem;
-    --input-width: 240px;
+    --input-width: 13.333rem; /* 240px / 18px */
 
-    --checkbox-size: 28px;
-    --checkbox-inner-size: 16px;
+    --checkbox-size: 1.5556rem; /* 28px / 18px */
+    --checkbox-inner-size: 0.8889rem; /* 16px / 18px */
 
-    --radio-size: 28px;
-    --radio-inner-size: 16px;
+    --radio-size: 1.5556rem; /* 28px / 18px */
+    --radio-inner-size: 0.8889rem; /* 16px / 18px */
+
+    --gap: 0.6667rem; /* Assuming a general gap, e.g. 12px / 18px */
+
+    /* Tile specific px values to rem */
+    --tile-padding-base: 1rem; /* 18px / 18px */
+    --tile-border-width-base: 0.1667rem; /* 3px / 18px */
+    --tile-clip-size-base: 0.6667rem; /* 12px / 18px */
 }
 
 /*#region colors*/
@@ -513,16 +520,20 @@ h6.cyber-h
 .cyber-tile-small,
 .cyber-tile-big
 {
-    --tile-width: 360px;
-    --tile-padding: 4px;
-    --tile-edges: 20px;
-    --label-margins: calc(var(--tile-edges) - var(--tile-padding));
-    --og-clip-path: polygon(0 0, 0 calc(100% - var(--tile-edges)), var(--tile-edges) 100%, 100% 100%, 100% var(--tile-edges), calc(100% - var(--tile-edges)) 0);
-    /* min-width: var(--tile-width); */
-    min-height: 60px;
+    /* Default tile uses these directly or via its specific overrides */
+    --current-tile-width: 20rem; /* 360px / 18px */
+    --current-tile-padding: 0.2222rem; /* 4px / 18px */
+    --current-tile-edges: 1.1111rem; /* 20px / 18px */
+
+    --label-margins: calc(var(--current-tile-edges) - var(--current-tile-padding));
+    --og-clip-path: polygon(0 0, 0 calc(100% - var(--current-tile-edges)), var(--current-tile-edges) 100%, 100% 100%, 100% var(--current-tile-edges), calc(100% - var(--current-tile-edges)) 0);
+    
+    width: var(--current-tile-width); /* Use width instead of min-width to allow shrinking */
+    max-width: 100%; /* Ensure it doesn't overflow parent */
+    min-height: 3.333rem; /* 60px / 18px */
     clip-path: var(--og-clip-path);
-    padding: var(--tile-padding);
-    padding-bottom: var(--tile-edges);
+    padding: var(--current-tile-padding);
+    padding-bottom: var(--current-tile-edges);
 }
 
 .cyber-tile img,
@@ -552,15 +563,15 @@ h6.cyber-h
 /*Overriding the values*/
 .cyber-tile-small
 {
-    --tile-width: 240px;
-    --tile-edges: 14px;
+    --current-tile-width: 13.333rem; /* 240px / 18px */
+    --current-tile-edges: 0.7778rem; /* 14px / 18px */
 }
 
 /*Overriding the values*/
 .cyber-tile-big
 {
-    --tile-width: 480px;
-    --tile-edges: 26px;
+    --current-tile-width: 26.666rem; /* 480px / 18px */
+    --current-tile-edges: 1.4444rem; /* 26px / 18px */
 }
 
 /*#endregion*/
@@ -620,18 +631,40 @@ h6.cyber-h
 {
     :root
     {
-        --root-font-size: 14px;
+        --root-font-size: 16px; /* Updated from 14px to 16px */
+
+        /* Responsive adjustments for variables */
+        --input-width: 100%; /* Full width on smaller screens */
+        
+        /* Button adjustments */
+        --button-font-size: 1.2rem; 
+        --button-padding-v: 0.8rem;
+        --button-padding-h: 2rem;
     }
 
     .cyber-tile
     {
-        max-width: 100%;
+        /* Default tile on small screens */
+        --current-tile-width: 18rem; /* Approx 288px at 16px root */
+        max-width: 100%; /* Already set, but good to keep in mind */
+    }
+
+    .cyber-tile-small
+    {
+        --current-tile-width: 12rem; /* Approx 192px at 16px root */
     }
 
     .cyber-tile-big
     {
-        max-width: 100%;
+        --current-tile-width: 22rem; /* Approx 352px at 16px root */
+        max-width: 100%; /* Already set */
     }
+
+    /* Adjust heading font sizes if needed, though rem scaling already helps */
+    /* Example:
+    h1.cyber-h { font-size: 2.5rem; } 
+    h2.cyber-h { font-size: 2rem; }
+    */
 }
 
 @keyframes glitch 

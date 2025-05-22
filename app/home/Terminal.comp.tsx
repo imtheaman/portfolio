@@ -73,7 +73,7 @@ const Terminal: React.FC<{ showTerminal: Function, initValue: string }> = ({
           ...prevLog,
           {
             log: data.user.socials.map(({ name, profile_url }) => (
-              <p className="w-[40rem] flex justify-between" key={profile_url}>
+              <p className="w-full md:w-[40rem] flex justify-between" key={profile_url}>
                 <span>{name}</span>
                 <Link href={profile_url} target="_blank">
                   {profile_url}
@@ -175,7 +175,7 @@ const Terminal: React.FC<{ showTerminal: Function, initValue: string }> = ({
 
   return (
     <TerminalLayout {...others}>
-      <ul className="text-lg space-y-3">
+      <ul className="text-base sm:text-lg space-y-3">
         {terminalLog.map(({ log, path, command }, index) => (
           <li key={index}>
             <ContainContent path={path}>{command}</ContainContent>
