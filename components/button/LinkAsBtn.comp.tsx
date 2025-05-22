@@ -6,7 +6,8 @@ const LinkAsBtn: React.FC<{
   href: string;
   className?: string;
   children: ReactNode;
-}> = ({ href, className, children, target}) => {
+  onClick?: MouseEventHandler<HTMLAnchorElement>; // Add this line
+}> = ({ href, className, children, target, onClick }) => { // Add onClick to destructuring
   // const classnames = reverted
   //   ? "bg-transparent border border-transparent hover:border-[var(--green-two)] hover:text-black hover:drop-shadow-2xl hover:bg-[var(--green-two)]"
   //   : "hover:bg-transparent border border-transparent hover:border-[var(--green-two)] text-black hover:text-[var(--green-two)] drop-shadow-2xl bg-[var(--green-two)]";
@@ -16,6 +17,7 @@ const LinkAsBtn: React.FC<{
       href={href}
       target={target || '_self'}
       className={`cyber-button-small bg-green fg-gray ${className || ''}`}
+      onClick={onClick} // Add this line
     >
       {children}
       <span className="glitchtext">{children}</span>
