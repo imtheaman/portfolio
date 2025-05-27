@@ -29,7 +29,7 @@
 
 @layer components {
     .body-margin {
-        @apply mx-16 my-8
+        @apply mx-4 my-4 sm:mx-8 sm:my-6 md:mx-12 md:my-8 lg:mx-16 lg:my-8;
     }
 
     /* color */
